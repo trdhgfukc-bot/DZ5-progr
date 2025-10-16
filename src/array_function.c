@@ -42,5 +42,6 @@ void get_min_and_max_from_int_array(int* src, size_t size, int* min, int* max) {
     }
     min = &timemin;
     max = &timemax;
+    
     return min, max;
 }
