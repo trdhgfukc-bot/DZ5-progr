@@ -13,7 +13,7 @@ void get_min_and_max_from_int_array(int* src, size_t size, int* min, int* max) {
             timemin = src[i];   
         }
     }
-    min = timemin;
-    max = timemax;
+    *min = timemin;
+    *max = timemax;
 
 }
