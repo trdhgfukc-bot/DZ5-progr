@@ -10,7 +10,6 @@ void join_int_arrays(int *src1, size_t size_src1, int *src2, size_t size_src2, i
     for (int i = size_src1; i < size_src1+size_src2; ++i){
         dest[i]=scr2[i-size_src1];
     }
-    return dest;
 }
 int comp(const void *a, const void *b){
     return (*a - *b);
@@ -42,6 +41,6 @@ void get_min_and_max_from_int_array(int* src, size_t size, int* min, int* max) {
     }
     min = &timemin;
     max = &timemax;
-    
+
     return min, max;
 }
